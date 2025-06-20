@@ -1,0 +1,55 @@
+Submitted by: Tushar Shukla
+Date: June 17, 2025
+
+What is React, and why is it used for building user interfaces?
+
+React is a popular JavaScript library developed by Facebook. It is used for building user interfaces, especially single-page applications (SPAs) where dynamic data is displayed efficiently.
+
+Purpose of React:
+
+Build fast, interactive, and modern UIs.
+
+Break UI into components for better structure and reusability.
+
+Key Benefits:
+
+Component-Based Architecture: UI is divided into reusable components.
+
+Virtual DOM: React uses a virtual DOM to update only the parts of the page that change, making it very fast.
+
+Reusability: Code can be reused across different parts of the app.
+
+Unidirectional Data Flow: Makes debugging easier.
+
+What is a React component, and what is the difference between a functional component and a class component?
+
+A React component is a JavaScript function or class that returns JSX to display UI. Components can be reused and nested inside other components.
+
+Functional Component:
+function Hello() {
+return <h1>Hello!</h1>;
+}
+
+Class Component:
+class Hello extends React.Component {
+render() {
+return <h1>Hello!</h1>;
+}
+}
+
+Comparison:
+
+Syntax:
+Functional: Uses a simple function.
+Class: Uses ES6 class.
+
+State Management:
+Functional: Uses Hooks like useState.
+Class: Uses this.state.
+
+Lifecycle:
+Functional: Uses useEffect and other hooks.
+Class: Uses lifecycle methods like componentDidMount.
+
+Modern Usage:
+Functional components are now preferred with hooks.
